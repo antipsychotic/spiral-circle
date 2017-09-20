@@ -9,3 +9,5 @@ scalaJSUseMainModuleInitializer := true
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.2"
 
 mainClass := Some("com.nitrograph.text2flow.client.Text2Flow")
+
+enablePlugins(GitBranchPrompt)
