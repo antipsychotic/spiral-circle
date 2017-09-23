@@ -6,13 +6,13 @@
 
 * [ ] shapes
     * [ ] circle
-        * [ ] rendering
+        * [X] rendering
         * [ ] style
-            * [ ] fillColor
-            * [ ] borderStyle
-                * [ ] color
+            * [X] fillColor
+            * [X] borderStyle
+                * [X] color
                 * [ ] style
-                * [ ] width
+                * [X] width
         * [ ] composite
             * [ ] text
         * [ ] slice
@@ -20,13 +20,13 @@
                 * [ ] tree
                 * [ ] spiral
     * [ ] rectangle
-        * [ ] rendering
-        * [ ] style
+        * [X] rendering
+        * [X] style
         * [ ] composite
             * [ ] text
-    * [ ] text
-        * [ ] rendering
-        * [ ] style
+    * [X] text
+        * [X] rendering
+        * [X] style
         * [ ] paragraph
 * [ ] binding
     * [ ] shape size fits content
