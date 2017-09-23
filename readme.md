@@ -1,5 +1,7 @@
 # `Spiral { Circle } / sliced`
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/431d8735998b4a989134416d15bd09c5)](https://www.codacy.com/app/antipsychotic/spiral-circle?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=antipsychotic/spiral-circle&amp;utm_campaign=Badge_Grade)
+
 ## Roadmap
 
 * [ ] shapes
