@@ -19,10 +19,3 @@ case class BorderStyle(
 ) {
     override def toString: String = s"border: ${width}px solid $color"
 }
-
-case class TextStyle(
-    fontColor: Color,
-    fontWeight: Int,
-    fontFamily: String,
-    aspectRatio: Double
-)

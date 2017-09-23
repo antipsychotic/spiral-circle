@@ -10,7 +10,9 @@ import com.nitrograph.svg.geometry._
 import com.nitrograph.svg.style._
 
 object Editor {
+
     def main(arguments: Array[String]): Unit = {
+
         val svgCanvas = document.getElementById(
             "svg"
         ).asInstanceOf[
@@ -33,11 +35,11 @@ object Editor {
         )
 
         Rectangle(
-            circle.innerBox / Height(4.0),
+            circle.innerBox / Height(5.0),
             Style(
-                fillColor = Color(255, 0, 255),
+                fillColor = Color(255, 0, 0),
                 border = BorderStyle(
-                    color = Color(0, 0, 255),
+                    color = Color(0, 0, 0),
                     width = 4
                 )
             )
@@ -46,11 +48,11 @@ object Editor {
         )
 
         Text(
-            "text",
+            "Editor",
             TextStyle(
                 fontColor = Color(128, 128, 0),
-                fontWeight = 300,
-                aspectRatio = 0.5,
+                fontWeight = 900,
+                aspectRatio = 0.8,
                 fontFamily = "Monaco"
             ),
             circle.innerBox / Height(4.0)
